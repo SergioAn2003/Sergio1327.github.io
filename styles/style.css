@@ -151,13 +151,13 @@ body {
   margin-left: 50px;
 }
 .dir_descr {
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
 }
 .direction {
   background: #00b66c;
-  width: 290px;
-  height: 75px;
+  width: 240px;
+  height: 65px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -168,15 +168,18 @@ body {
   z-index: 1;
   margin-left: -75px;
 }
+.dir_layer{
+  width: 250px;
+}
 .dir_img {
   width: 435px;
   height: 600px;
 }
 .dir_title1 {
-  font-size: 40px;
+  font-size: 25px;
 }
 .dir_title2 {
-  font-size: 70px;
+  font-size: 55px;
   font-weight: 700;
   color: #00b66c;
 }
