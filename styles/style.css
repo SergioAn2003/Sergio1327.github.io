@@ -135,3 +135,44 @@ body {
   font-size: 40px;
   max-width: 360px;
 }
+.service_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.directions {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Две равные колонки */
+  grid-gap: 10px;
+  grid: column gap 14px;
+  margin-left: 100px;
+}
+.dir_descr {
+  font-size: 26px;
+  color: #fff;
+}
+.direction {
+  background: #00b66c;
+  width: 343px;
+  height: 106px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.dir_photo{
+  z-index: 1;
+  margin-left: -100px;
+}
+.dir_title1{
+  font-size: 60px;
+}
+.dir_title2{
+  font-size: 90px;
+  font-weight: 700;
+  color: #00b66c;
+}
