@@ -168,7 +168,7 @@ body {
   z-index: 1;
   margin-left: -75px;
 }
-.dir_layer{
+.dir_layer {
   width: 250px;
 }
 .dir_img {
@@ -191,7 +191,7 @@ body {
   font-size: 60px;
   margin-right: 20px;
 }
-.superman{
+.superman {
   width: 800px;
   height: 700px;
 }
@@ -238,20 +238,16 @@ body {
   z-index: 2;
   position: relative;
   width: 100%;
-  justify-content: end ;
+  justify-content: end;
 }
 .legend_descr {
-  align-items: center;
-  justify-content: center;
   z-index: 2;
-  
 }
 .legend_info {
   margin: 21px 21px;
   font-size: 16px;
   z-index: 2;
-  width: 600px;
-
+  width: 600px !important;
 }
 .legend_photo {
   z-index: 1;
@@ -268,15 +264,110 @@ body {
 .legend_title1 {
   z-index: 2;
   font-size: 50px;
-margin-left: 30px;
+  margin-left: 30px;
 }
 .legend_title2 {
   z-index: 2;
-  font-size: 100px;
+  font-size: 60px;
   color: #00b66c;
   margin-left: 20px;
 }
 .legend_line {
   z-index: 2;
   margin-left: 15px;
+  width: 295px;
+}
+
+.doctors {
+  margin-top: 120px;
+  border-bottom: 2px solid black;
+  padding-bottom: 150px;
+}
+.doctors_content {
+  position: relative !important;
+}
+.doctors_title {
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+
+.doctors_title span {
+  color: #00b66c;
+  font-weight: 800;
+  font-size: 54px;
+}
+.doctors_text {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #00b66c;
+  padding: 30px 40px 110px 40px;
+  margin-bottom: 200px;
+  border-radius: 30px;
+}
+.doctors_text h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  max-width: 230px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.doctors_cards {
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-content: flex-end !important;
+  position: absolute !important;
+  left: 65px;
+  top: -65px;
+}
+
+.doctor_card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  width: 252px;
+  height: 315px;
+  position: relative !important;
+  text-align: right;
+  box-shadow: 1px 1px 2px #000;
+  border-radius: 30px;
+}
+
+.doctor_card:nth-child(4),
+.doctor_card:nth-child(5),
+.doctor_card:nth-child(6),
+.doctor_card:nth-child(7) {
+  grid-row: 2;
+  margin-top: 20px;
+}
+
+.doctor_card:nth-child(1) {
+  grid-column-start: 2;
+}
+.doctor_card img {
+  width: 252px;
+  height: 315px;
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.doctor_title {
+  z-index: 100;
+}
+.doctor_descr {
+  z-index: 100;
+}
+.white-shadow {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
 }
