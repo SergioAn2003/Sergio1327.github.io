@@ -280,7 +280,6 @@ body {
 
 .doctors {
   margin-top: 120px;
-  border-bottom: 2px solid black;
   padding-bottom: 150px;
 }
 .doctors_content {
@@ -370,4 +369,118 @@ body {
   position: absolute;
   bottom: 1px;
   right: 1px;
+}
+.economy_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.economy_left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .h7, .h8{
+  color: #32d95b;
+  margin: 1px 1px;
+  font-weight: bolder;
+}
+.img_right{
+  width: 800px;
+  height: 700px;
+}
+.h1{
+  font-size: 35px;
+}
+.h2{
+  font-size: 40px;
+}
+.h3{
+  font-size: 46px;
+}
+.h4{
+  font-size: 35px;
+}
+.h5{
+  font-size: 40px;
+}
+.h6{
+  font-size: 80px;
+}
+.h7{
+  font-size: 60px;
+}
+.h8{
+  font-size: 67px;
+}
+.imgs{
+  width: 1230px;
+}
+.images_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.footer_content{
+  display: flex;
+  align-items: center;
+justify-content: space-evenly;
+}
+.footer_lefttop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid #000;
+}
+.h_nation{
+  margin-left: 50px;
+  font-weight: 100;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+}
+.footer_number{
+  display: flex;
+  align-items: center;
+
+}
+.vib{
+  width: 40px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.foot_num{
+  font-size: 30px;
+
+}
+.social{
+  display: flex;
+  align-items: center;
+}
+.inst, .youtube, .tg, .fb{
+  font-size: 25px;
+  margin-left: 10px;
+}
+.foot_ad{
+  font-weight: bolder;
+  font-size: 35px;
+}
+.adress{
+  font-size: 20px;
+}
+.footer{
+  margin-top: 100px;
+}
+.final_line{
+  background: #32d95b;
+  height: 80px;
+  margin-top: 50px;
+}
+.footer_leftbott{
+  margin-top: 50px;
 }
