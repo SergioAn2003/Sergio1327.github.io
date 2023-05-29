@@ -1070,6 +1070,9 @@ body {
     width: 280px !important;
     height: 370px !important;
   }
+  .header{
+    background-position: 73% 0;
+  }
   .val_title1,
   .val_title2 {
     font-size: 30px;
@@ -1102,13 +1105,42 @@ body {
     height: 60px;
     font-size: 15px;
   }
-  .criteries{
+  .criteries {
     height: 370px !important;
   }
-  .val_descr{
+  .val_descr {
     font-size: 17px;
   }
-  .legend_info{
+  .legend_info {
     margin-bottom: 10px;
+  }
+  .adress {
+    width: 300px;
+    text-align: center;
+  }
+  .footer_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_right iframe {
+    max-width: 300px;
+    width: 100%;
+  }
+  .h_nation {
+    font-size: 20px;
+  }
+  .foot_num {
+    font-size: 18px;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot_link{
+    font-size: 20px;
   }
 }
