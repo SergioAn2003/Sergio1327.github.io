@@ -461,6 +461,15 @@ body {
 .imgs {
   width: 1230px;
 }
+.economy_right{
+  line-height: 25px;
+}
+.economy_descr{
+  font-size: 18px;
+}
+.economy_descr span{
+  font-weight: bolder;
+}
 .images_content {
   display: flex;
   align-items: center;
@@ -669,6 +678,7 @@ body {
   }
   .economy_right {
     width: max-content;
+
   }
   .legend_story {
     width: 100%;
