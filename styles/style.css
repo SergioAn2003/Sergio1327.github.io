@@ -18,7 +18,7 @@ body {
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
-  box-shadow: #000 2px 2px 30px ;
+  box-shadow: #000 2px 2px 30px;
 }
 
 .container {
@@ -462,13 +462,13 @@ body {
 .imgs {
   width: 1230px;
 }
-.economy_right{
+.economy_right {
   line-height: 25px;
 }
-.economy_descr{
+.economy_descr {
   font-size: 18px;
 }
-.economy_descr span{
+.economy_descr span {
   font-weight: bolder;
 }
 .images_content {
@@ -679,7 +679,6 @@ body {
   }
   .economy_right {
     width: max-content;
-
   }
   .legend_story {
     width: 100%;
@@ -721,7 +720,7 @@ body {
     max-width: 900px !important;
   }
   .header-nav {
-    padding: 30px 80px;
+    padding: 50px 80px;
     position: fixed;
     flex-direction: column;
     left: 0;
@@ -731,12 +730,14 @@ body {
     z-index: 1000;
     height: 100%;
     opacity: 0;
+    display: none;
     transition: 400ms linear;
     width: 0;
   }
   .header-nav.enable {
     opacity: 1;
-    width: 40%;
+    width: 35%;
+    display: flex;
   }
   .nav-list {
     flex-direction: column;
@@ -745,15 +746,18 @@ body {
   }
   .nav-link {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     text-align: center;
-    font-size: 31px;
+    font-size: 25px;
     padding-bottom: 35px;
     margin-right: 0;
   }
   .nav-number {
     margin-top: 30px;
+    text-align: center !important;
+    font-size: 15px !important;
+    width: 100% !important;
   }
   .header-nav a img {
     margin-bottom: 25px;
@@ -1021,14 +1025,20 @@ body {
   .val_descr {
     font-size: 30px;
   }
-  .economy_descr{
+  .economy_descr {
     font-size: 14px;
   }
-  .ec_rtitle{
+  .ec_rtitle {
     font-size: 15px;
   }
-  .nav-number{
-    font-size: 8px;
+  .nav-number {
+    font-size: 12px !important;
+  }
+  .header-nav.enable {
+    padding: 10%;
+  }
+  .nav-link {
+    font-size: 20px !important;
   }
 }
 
@@ -1067,6 +1077,10 @@ body {
   .bar-second {
     font-size: 18px;
     line-height: 25px;
+    width: max-content !important;
+  }
+  .header-bar {
+    padding: 10px 30px;
   }
   .text-descr {
     font-size: 28px;
@@ -1084,10 +1098,10 @@ body {
   .val_descr {
     font-size: 20px;
   }
-  .nav-link{
+  .nav-link {
     font-size: 15px;
   }
-  .header-nav{
+  .header-nav {
     width: 50% !important;
   }
 }
@@ -1096,13 +1110,14 @@ body {
     width: 280px !important;
     height: 370px !important;
   }
-  .header{
+  .header {
     background-position: 73% 0;
   }
   .val_title1,
   .val_title2 {
     font-size: 30px;
   }
+
   .text-descr {
     font-size: 20px;
     line-height: 21px;
@@ -1166,7 +1181,12 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .foot_link{
+  .foot_link {
     font-size: 20px;
+  }
+
+  .bar-first,
+  .bar-second {
+    font-size: 15px;
   }
 }
