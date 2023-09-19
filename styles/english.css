@@ -179,6 +179,7 @@ body {
   text-align: left;
   font-size: 40px;
   max-width: 390px;
+  margin-right: 3%;
 }
 .service_content {
   display: flex;
@@ -604,9 +605,11 @@ body {
   }
   .bar-first {
     font-size: 30px;
+    margin-left: 3%;
   }
   .bar-second {
     font-size: 30px;
+    margin-right: 0 !important;
   }
   .directions {
     margin-left: 30px !important;
@@ -1192,6 +1195,9 @@ body {
       font-size: 19px !important;
       width: 250px;
     }
+    .bar-first{
+      margin-left: 2% !important;
+    }
   }
 
   @media (max-width: 600px) {
@@ -1207,7 +1213,7 @@ body {
       margin-left: 30px;
     }
     .bar-first {
-      margin-left: 40px;
+      margin-left: 11% !important;
     }
   }
 }
@@ -1235,9 +1241,13 @@ body {
   .directions{
     margin-left: 0 !important;
   }
+  .bar-first{
+    margin-left: 7% !important;
+  }
 }
 @media (max-width:450px){
   .bar-first, .bar-second{
     font-size: 9px !important;
   }
+  
 }
