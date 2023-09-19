@@ -84,9 +84,9 @@ body {
   display: block;
   transition: 300ms linear;
 }
-.lan:hover{
+.lan:hover {
   background-color: #00b66c;
-  transform:scale(1.1) !important;
+  transform: scale(1.1) !important;
 }
 .nav-number {
   color: #fff;
@@ -165,6 +165,7 @@ body {
   height: 70px;
   background-color: #000;
   margin: 0 60px;
+  /* margin-right: 140px; */
 }
 
 .bar-first {
@@ -178,6 +179,7 @@ body {
   text-align: left;
   font-size: 40px;
   max-width: 360px;
+  margin-right: 80px;
 }
 .service_content {
   display: flex;
@@ -376,7 +378,6 @@ body {
   position: absolute !important;
   left: 35px;
   top: -200px !important;
-
 }
 
 .doctor_card {
@@ -397,7 +398,7 @@ body {
 .doctor_card:hover {
   transform: scale(1.1);
 }
-.all_nations{
+.all_nations {
   display: none;
   color: #fff;
 }
@@ -593,7 +594,7 @@ body {
 }
 
 @media (max-width: 1250px) {
-  .values{
+  .values {
     margin-top: 50px;
   }
   .legend_descr {
@@ -630,7 +631,7 @@ body {
   .dir_photo {
     margin-left: 0;
   }
-  .lan{
+  .lan {
     font-size: 15px;
   }
   .direction {
@@ -681,9 +682,9 @@ body {
     width: 210px;
     height: 255px;
   }
-  .doctors_cards{
-gap: 30px;
-margin-left: 10px;
+  .doctors_cards {
+    gap: 30px;
+    margin-left: 10px;
   }
   .doctor_card img {
     width: 210px;
@@ -692,7 +693,7 @@ margin-left: 10px;
   .doctors_text h3 {
     font-size: 17px;
     max-width: 200px;
-    width: 100% ;
+    width: 100%;
   }
   .img_right {
     width: 90%;
@@ -738,6 +739,9 @@ margin-left: 10px;
   .economy img {
     width: 80%;
   }
+  .bar-second{
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -778,7 +782,7 @@ margin-left: 10px;
     padding-bottom: 35px;
     margin-right: 0;
   }
-  .lan{
+  .lan {
     color: #000;
   }
   .nav-number {
@@ -815,12 +819,12 @@ margin-left: 10px;
     flex-direction: column;
     align-items: center;
   }
-.doctors_text{
-  height: 120px;
-}
-.doctors_title{
-  margin-bottom: 50px;
-}
+  .doctors_text {
+    height: 120px;
+  }
+  .doctors_title {
+    margin-bottom: 50px;
+  }
   .doctors_cards {
     position: static !important;
     left: 15%;
@@ -828,7 +832,7 @@ margin-left: 10px;
     gap: 50px;
     grid-template-columns: 1fr 1fr;
   }
-  .all_nations{
+  .all_nations {
     display: block;
   }
   .doctor_card:nth-child(1),
@@ -859,7 +863,7 @@ margin-left: 10px;
     flex-direction: column;
     align-items: center;
   }
-  .doctors_text{
+  .doctors_text {
     margin-top: 0px;
   }
   .economy_content {
@@ -1150,7 +1154,7 @@ margin-left: 10px;
     width: 280px !important;
     height: 370px !important;
   }
-  
+
   .header {
     background-position: 73% 0;
   }
@@ -1232,18 +1236,17 @@ margin-left: 10px;
   }
 }
 @media (max-width: 600px) {
-.bar-first{
-  width: 250px;
-  text-align: center;
-}
-.v-line{
-margin-left: 0;
-margin-right: 70px;
-}
-
+  .bar-first {
+    width: 250px;
+    text-align: center;
+  }
+  .v-line {
+    margin-left: 0;
+    margin-right: 70px;
+  }
 }
 @media (max-width: 450px) {
-.v-line{
-  margin-right: 50px;
-}
+  .v-line {
+    margin-right: 50px;
+  }
 }
