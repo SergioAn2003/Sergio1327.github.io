@@ -30,7 +30,7 @@ body {
 
 .header {
   height: 100%;
-  background: url("../img/Photo\ family.png") no-repeat center/cover;
+  background: url("../img/Приветствие.png") no-repeat center/cover;
 }
 .logo {
   max-width: 170px;
@@ -73,11 +73,23 @@ body {
   width: 100%;
 }
 
-.nav-link.last {
+.lan {
   margin-right: 0;
+  color: #000;
+  font-weight: bold;
+  border: 3.5px solid rgb(0, 204, 102);
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: block;
+  transition: 300ms linear;
+}
+.lan:hover{
+  background-color: #00b66c;
+  transform:scale(1.1) !important;
 }
 .nav-number {
-  color: black;
+  color: #fff;
   font-weight: bold;
   border: 3.5px solid rgb(0, 204, 102);
   padding: 5px 10px;
@@ -88,7 +100,6 @@ body {
 .nav-number:hover {
   background-color: #00b66c;
   transform: scale(1.1);
-  /* color: #fff; */
 }
 
 .header-title {
@@ -328,6 +339,8 @@ body {
   font-size: 42px;
   line-height: 51px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 110px;
 }
 
 .doctors_title span {
@@ -336,12 +349,14 @@ body {
   font-size: 54px;
 }
 .doctors_text {
-  margin-top: 50px;
+  margin-top: 280px;
   width: 100%;
   background-color: #00b66c;
   padding: 30px 40px 110px 40px;
   margin-bottom: 200px;
   border-radius: 30px;
+  height: 190px;
+  width: 100%;
 }
 .doctors_text h3 {
   color: #fff;
@@ -355,12 +370,13 @@ body {
 .doctors_cards {
   width: max-content;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
   justify-content: flex-end !important;
   position: absolute !important;
-  left: 65px;
-  top: -65px;
+  left: 35px;
+  top: -200px !important;
+
 }
 
 .doctor_card {
@@ -381,18 +397,11 @@ body {
 .doctor_card:hover {
   transform: scale(1.1);
 }
-
-.doctor_card:nth-child(4),
-.doctor_card:nth-child(5),
-.doctor_card:nth-child(6),
-.doctor_card:nth-child(7) {
-  grid-row: 2;
-  margin-top: 20px;
+.all_nations{
+  display: none;
+  color: #fff;
 }
 
-.doctor_card:nth-child(1) {
-  grid-column-start: 2;
-}
 .doctor_card img {
   width: 252px;
   height: 315px;
@@ -621,6 +630,9 @@ body {
   .dir_photo {
     margin-left: 0;
   }
+  .lan{
+    font-size: 15px;
+  }
   .direction {
     width: 200px;
     font-size: 15px;
@@ -666,16 +678,21 @@ body {
   }
   .doctor_card {
     padding: 13px;
-    width: 222px;
-    height: 275px;
+    width: 210px;
+    height: 255px;
+  }
+  .doctors_cards{
+gap: 30px;
+margin-left: 10px;
   }
   .doctor_card img {
-    width: 222px;
-    height: 275px;
+    width: 210px;
+    height: 255px;
   }
   .doctors_text h3 {
     font-size: 17px;
     max-width: 200px;
+    width: 100% ;
   }
   .img_right {
     width: 90%;
@@ -761,11 +778,15 @@ body {
     padding-bottom: 35px;
     margin-right: 0;
   }
+  .lan{
+    color: #000;
+  }
   .nav-number {
     margin-top: 30px;
     text-align: center !important;
     font-size: 15px !important;
     width: 100% !important;
+    color: #000;
   }
   .header-nav a img {
     margin-bottom: 25px;
@@ -794,13 +815,21 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
+.doctors_text{
+  height: 120px;
+}
+.doctors_title{
+  margin-bottom: 50px;
+}
   .doctors_cards {
     position: static !important;
     left: 15%;
     top: 18%;
     gap: 50px;
     grid-template-columns: 1fr 1fr;
+  }
+  .all_nations{
+    display: block;
   }
   .doctor_card:nth-child(1),
   .doctor_card:nth-child(2) {
@@ -829,6 +858,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .doctors_text{
+    margin-top: 0px;
   }
   .economy_content {
     flex-direction: column;
@@ -1198,4 +1230,20 @@ body {
   .bar-second {
     font-size: 15px;
   }
+}
+@media (max-width: 600px) {
+.bar-first{
+  width: 250px;
+  text-align: center;
+}
+.v-line{
+margin-left: 0;
+margin-right: 70px;
+}
+
+}
+@media (max-width: 450px) {
+.v-line{
+  margin-right: 50px;
+}
 }
