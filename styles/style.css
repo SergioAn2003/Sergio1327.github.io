@@ -1247,6 +1247,12 @@ body {
 }
 @media (max-width: 450px) {
   .v-line {
-    margin-right: 50px;
+    margin-right:15%;
+    margin-left: 5%;
   }
+.logo{
+  width: 90% !important;
 }
+}
+
+
